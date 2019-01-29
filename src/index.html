@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>RRest Frontend</title>
+  <meta name="description" content="something">
+  <meta name="author" content="me">
+
+  <link rel="stylesheet" type="text/css" href="assets/scss/index.scss">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <h1>
+    Hello rrest
+  </h1>
+  <div class="main">
+      <form action="http://locahost:3000/submit" method="get" class="form" id="form">
+        <div>
+          <label for="content">
+            content as JSON
+          </label>
+          <input type="text" name="content" id="content" required>
+          <div>
+            <input type="submit" value="Send! " id="submit">
+          </div>
+        </div>
+      </form>
+      <div class="console">
+        <pre>
+          <code id="target">
+
+        </code>
+      </pre>
+      </div>
+    </div>
+  <script type="text/javascript" src="assets/ts/index.ts"></script>
+</body>
+</html>
