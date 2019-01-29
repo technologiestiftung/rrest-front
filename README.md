@@ -1,5 +1,7 @@
 # RRest Frontend
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/technologiestiftung/rrest-front.svg)](https://greenkeeper.io/)
+
 minimal frontend for testing the [rrest](https://github.com/technologiestiftung/rrest) API.
 
 Please ignore.
